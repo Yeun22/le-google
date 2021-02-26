@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+/*Header*/
+header{
+    padding: 15px 20px;
+    height: 150px;
+}
+.head{
+    float: right;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.head a{
+    padding-right: 10px;
+    text-decoration: none;
+    color: #333
+}
+.head a:hover{
+    text-decoration: underline;
+}
+header img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+
+/*Google*/
+#google{
+    height:400px;
+}
+.img-google{
+    display: flex;
+    justify-content: center;
+}
+.img-google img{
+    height: 25%;
+    padding-right: 10px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+   
+}
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+.search input{
+    width:85%;
+    padding-left: 10px;
+    height: 100%;
+    border: transparent;
+}
+.search input:focus{
+    outline: none;
+}
+#search-block{
+    padding:15px;
+    border: solid 1px #ccc;
+    width:70%;
+    border-radius: 25px;
+}
+#search-block:hover{
+    box-shadow: 1px 0px 0px 3px #e3e3e3;
+}
+
+.button-search{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    padding:10px;
+    margin-right: 20px;
+    color: #444;
+    border:1px solid transparent;
+    cursor:pointer;
+    background-color: #f4f4f4;
+    width:180px;
+}
+.button:hover{
+    border: 1px solid #f5f5f5;
+    box-shadow: 1px 1px 2px 2px #bbb;
+    border-radius: 3px;
+}
+
+/*Footer*/
+footer{
+    background-color: #F2F2F2;
+    color: #666;
+}
+#foot-one{
+    padding: 20px;
+    border-bottom: solid 1px #ccc;
+}
+#foot-two{
+    padding: 25px 15px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+
+}
+#foot-two ul{
+    list-style: none;
+
+}
+#foot-two li{
+    display: inline-block;
+    padding: 2px 16px;
+    margin-top: 5px;
+    
+
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+    
+@media (max-width: 500px) {
+    .button{
+        width: 180px;
+    }
+    .img-google img{
+        height:50px;;
+        padding-right: 10px;
+        margin-bottom: 25px;
+    }
+
+}
